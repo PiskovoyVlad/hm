@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Списки-->
+
+    <!--Маркированые списки-->
+
+    <ul class="list">
+
+        <li class="list-item">Пункт 1</li>
+        <li class="list-item2">Пункт 2
+            <ul>
+
+                <li>Пункт 1</li>
+                <li>Пункт 2</li>
+                <li>Пункт 3</li>
+        
+            </ul>
+        </li>
+        <li>Пункт 3</li>
+
+    </ul>
+              <!--Нумерованые списки-->
+             
+
+              <ol reversed start="10">
+                  <li>Пункт 1</li>
+                  <li>Пункт 2
+                    <ol type="I">
+                        <li>Пункт 1</li>
+                        <li>Пункт 2</li>
+                        <li>Пункт 3</li>
+                    </ol>
+                  </li>
+                  <li>Пункт 3</li>
+              </ol>
+        <!--атрибуты нумерованого списка
+        
+        reversed - переворачивает нумерацию списка
+        
+        start="10"  -   с какой цифры начинать отсчет 
+
+        type="" - меняет вид маркера
+        По  умолчанию он равен 1
+        'A' - алфавитная нумерация
+        'a' - алфавитная нумерация
+        'I' - римская нумерация
+        'i' - римская нумерация 
+        -->
+
+        <!--Список опредилений-->
+
+
+        <dl>
+            <dt>Режиссер:</dt>
+                <dd>Иван Ивонов</dd>
+            <dt>Актеры:</dt>
+            <dd>Петр Петров</dd>
+            <dd>Василий Васильев</dd>    
+        </dl>
+
+
+          <!--Список как структура меню-->
+
+          <ul class="menu">
+              <li class="menu-item">
+                  <a href="#">Главная</a>
+              </li>
+              <li class="menu-item">
+                  <a href="#">Доставка</a>
+              </li>
+              <li class="menu-item">
+                  <a href="#">О компании</a>
+              </li>
+              <li class="menu-item">
+                   <a href="#">Контанты</a>
+              </li>
+               
+              <div class="clear"></div>
+
+          </ul>
+
+
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+.text{
+    word-spacing: 10px;
+    /*Принимает положительную или отрицательнцю значение растаяние между словами
+    Принимает px em %*/
+    letter-spacing: 3px;
+    /* меняет растояние между буквами , принмает px em*/
+    text-indent: 20px  ;
+    /*Отступ первой строки
+     принимает px/% от ширины блока
+     Добавочные значение :
+     each-line - добавит пробел при каждом переносе 
+     hanging -  все строки будут с прробелом ,кроме первой 
+    */
+
+
+    /* свойтвса шрифтов*/
+
+    font-family: 'Calibri',"Arial", sans-serif;
+
+    /*
+    семейства шрифтов - Serif , Sans-serif, monospace, cursive
+    */
+    font-weight: 700;
+    font-style: italic;
+    /*курсив*/
+    font-size: 20px;
+    /*
+    Smaller/larger - размер шрифта меняется на +- 1 поинт
+    
+    */
+    line-height: 40px;
+
+    /* высота строки */
+
+
+
+
+    font: italic 30px/34px Arial,serif;
+
+ 
+}
+.link{
+    text-decoration: none
+      color: orange;
+
+}
+  
+
+    
+}
+a.visited{
+    color:green;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    /*при нажатии*/ 
+    color: hotpink;
+    text-decoration: none
+}
+
+.gradient{
+    width: 500px;
+    height: 300px;
+
+}
+
+.gradient-l{
+    
+     
+    background: linear-gradient(45deg, red, blue,purple);
+
+    /* 
+    
+    to left top - из нижнего правого в левый верхний
+    to right - с лева на право
+    
+    */
+    background: linear-gradient(45deg, red 20%, blue 50%,purple 80%)
+
+
+    /*
+    
+    0-20 красный
+
+    20-50 с карсного в синий
+
+    50-80 с  синего в фиолетовый 
+
+    80-100 фиолетовый
+    
+    */
+    
+   
+}
+.gradient-l2{
+    background: linear-gradient(to right, red 20%, blue 20%, blue 80%,purple 80% );
+}
+.gradient-l3{
+    background: radial-gradient(at 100px 100px,white,red);
+
+    /*  
+    
+    at top - сместить центральную точку вверх (left,right,bottom)
+     
+    at 100px 100px - задать координату центральной точке
+    */
+    background: radial-gradient(40% 50%,white,red);
+
+    /*  
+    
+    40% - это ширина эллипса
+    50% - высота эллипса
+    
+
+    closest-side - градиент стремится к самой ближней точке блока 
+
+
+    farthest-side - растаяние до дальных сторон
+
+
+    closest-corner - стремиться к лижайщему углу
+
+
+    farthest-corner - стремится к дальнему углу
+
+
+    Можно также в начале передать парметр circle и поменять с элипса на круг
+
+    */
+    background: radial-gradient(farthest-corner at 100px 50px,white,red);
+}
+
+/*  Повор гардиента */
+
+
+.gradient-l4{
+    background: 
+    repeating-linear-gradient(45deg,red,red 10px, blue 10px, blue 20px);
+
+    background: 
+    repeating-radial-gradient(circle,red,red 10px, blue 10px, blue 20px);
+   
+}
+.gradient-l5{
+    background: linear-gradient(45deg, rgba(255,0,132,1) 0%, rgba(26,158,0,1) 100%);
+}
+
+

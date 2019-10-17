@@ -1,0 +1,14 @@
+.product{
+    width: 100%;
+    border-collapse: collapse;
+    height: 300px;
+}
+.wrapper{
+    margin-bottom: 40px;
+    border-color: black;
+    padding: 3px;
+
+}
+.products tbody td{
+    padding: 10px;
+}

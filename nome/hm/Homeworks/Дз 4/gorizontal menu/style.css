@@ -1,0 +1,50 @@
+
+.menu{
+    float: left;
+    
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: black;
+    height: 50px ;
+}
+.il{
+    margin: 20px;
+    float: left;
+    padding: 15px;
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+    
+    
+   
+}
+.a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu2{
+    float: left;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: silver;
+    height: 50px;
+}
+.il2{
+    margin: 20px;
+    float: left;
+    padding: 15px;
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+}
+.a2{
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+.il2:hover{
+    background-color: rgb(236, 236, 236);
+}
+.il:hover{
+    background-color: rgb(34, 34, 34);
+}

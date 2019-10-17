@@ -1,0 +1,138 @@
+.video{
+    width: 300px;
+    border-radius: 10%;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic');
+
+@font-face {
+    font-family: 'eiisabethischebook';
+    src: url('fonts/18002-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.text2{
+    font-family: 'eiisabethischebook';
+    
+}
+
+
+
+
+/*Селекторы*/
+
+.selectors h1{
+
+}
+
+
+/*Дочерный селектор >*/
+
+.selectors > b{
+    color: red;
+}
+
+/*Сестринские селекторы + ^*/
+
+h1 + p{
+    color: blue;
+}
+/
+
+/*+ выделяет сестренский элемент стоящий следом за вы поянли (только 1)*/
+
+h1 ~ p{
+    text-decoration: underline;
+}
+
+/*  ~ выделяет всех рядом стоящих  */
+
+[href="http://google.com.ua"]{
+    font-size: 40px;
+}
+[href]{/*выделет все элементы у которых есть атрибут href*/
+
+}
+[class~="google"]{/*выделяет если слово отдельно стоящее присутсвует в значении атрибута*/
+     color: fuchsia;
+}
+[class|="google"]{/*выделяет если значение арибута начинается с этого слова
+    Слово должно быть отделено пробелом */
+     
+}
+[href^="http://"]{/*если значение атрибута начинается с этого слова*/
+
+}
+[href$="com.ua"]{/*выделяет если значение атрибута заканчивается на это слово*/
+
+}
+[herf*="le.com"]{/*выделяет если занчение атрибута содержит это слово*/
+
+}
+
+
+
+
+
+
+/*селектор пвсевдокласса*/   
+.google:focus{  /*Дизайн фокусировки на элементе */
+    
+    background: red;
+
+}
+.p:not([class="text"]){
+    text-transform: uppercase;
+}
+
+
+
+/*Селектор  структурных псевдоклассов */
+
+.list li:nth-child(odd){ /*odd Нечетные / even четные*/
+    text-decoration: underline;
+}
+.list li:nth-child(3n + 2) {/* 3n = каждый 3 елемент  / 3n + 2  = каждый 3 начиная с второго
+    n + 2 = все элементы начиная со 2
+    3 = третий элемент  */
+     color: blue;
+}
+/*  
+
+:nth-last-child() - она работает так же ,только с конца
+
+:first-child - выделит только 1 элемент
+
+:last-child - выделит последний элемент
+
+:only-child - выделяет элемент если он единственный дочерный элемент
+
+:empty - выберит элемент у которого нет дочерных элементов (даже текста)
+
+
+
+*/
+
+
+.list li:nth-of-type(odd){
+    text-transform: uppercase;
+}
+
+/*
+
+:first-of-type - выделит 1 элемент по типу
+
+:last-of-type - выделяет последний элемент по типу 
+
+:nth-last-of-type() - выберит элементы заданого типа но начиная с конца
+
+
+
+*/
+

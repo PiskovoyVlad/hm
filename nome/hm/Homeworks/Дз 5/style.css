@@ -1,0 +1,108 @@
+.box{
+    width: 1920px;
+    height: 1200px;
+    background: url(fon.jpg) no-repeat center center;
+    position: relative;
+    background-size: contain;
+}
+.cow{
+    position: absolute;
+    top: 600px;
+    left: 1300px;
+    width: 200px;
+    z-index: 2;
+}
+.nlo{
+    position: absolute;
+    top: 190px;
+    left: 1100px;
+    width: 500px;
+    z-index: 2;
+}
+.str{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 150px;
+    z-index: 2;
+    
+}
+.str2{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: 150px;
+    z-index: 2;
+}
+.fire{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 150px;
+    z-index: 1;
+}
+.fire1{
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    width: 150px;
+    z-index: 1;
+}
+.fire2{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    width: 150px;
+}
+.fire3{
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    width: 150px;
+}
+.dum{
+    position: absolute;
+    top: -80px;
+    left: 60px;
+    width: 600px;
+    z-index: 3;
+}
+.og{
+    position: absolute;
+    top: 280px;
+    left: 1220px;
+    width: 150px;
+    z-index: 2;
+}
+.alien{
+    position: absolute;
+    top: 600px;
+    left: 1750px;
+    width: 150px;
+}
+.dep{
+    position: absolute;
+    top: 700px;
+    left: 270px;
+    width: 500px;
+    
+}
+.ino{
+    position: absolute;
+    top: 400px;
+    left: 610px;
+    width: 500px;
+}
+.ino2{
+    position: absolute;
+    top: 740px;
+    left: 60px;
+    width: 200px;
+}
+.luch{
+    position: absolute;
+    top: 350px;
+    left: 1080px;
+    width: 600px;
+    z-index: 1;
+}

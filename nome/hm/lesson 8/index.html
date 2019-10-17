@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Audio-->
+
+    <audio src="11.mp3" controls class="audio"></audio>
+    <!--Виды кодеков:
+      audio/mpeg
+      audio/ac
+
+      audio/ogg
+
+    -->
+    <audio controls autoplay class="audio">
+        <source src="11.mp3" type="audio/mpeg">
+        <source src="11.ogg" type="audio/ogg">
+    </audio>
+
+    <!--
+
+        autoplay - автозапуск воспроизвидение 
+        loop - циклическое воспроизвидение
+        muted - отключить звук на 0
+        preload - позволяет предворительно загрузить аудио
+        preload="auto" - значение по умолчанию, Оно загружает аудио в момент загрузки
+        страницы сразу.
+        preload="metadator" - загружвет ту часть аудио в которой хранится длинна аудио записи
+        и основные характеристики .
+        preload="none" - запрещает автозагрузку аудио.
+
+
+    -->
+
+    <!--video-->
+
+    <video src="22.mp4" controls class="video"></video>
+    <video controls class="video">
+        <source src="22.mp4" type="video/mp4" >
+        <source src="22.webm" type="video/webm" >
+        <source src="22.ogv" type="video/ogv" >
+    </video>
+    <!--Атребуты
+    
+    autoplay - aвтозапуск (работает только если есть атрибут mute)
+    height - высота видео
+    width - шырина видео
+    loop - воспроизвидение по кругу
+    muted - отключить звук
+    poster - изображение которое будет видно до запуска видео (превью)
+    preload - работает так же как и в аудио
+    
+    -->
+   <div class="text">
+       Lorem ipsum dolor sit amet.
+   </div>
+   <div class="text2">
+       Й Ц Щ В Ы
+    Lorem ipsum dolor sit amet.
+</div>
+
+
+<!--Селекторы-->
+
+
+
+<div class="selectors">
+     <h1>Заголовок</h1>
+     <p>Текст</p>
+     <p>Текст</p>
+     <h2>Заголовок2</h2>
+     <p class="text">Текст <b>Жирный текст</b></p>
+     <b>Жирный текст</b>
+     <a href="http://google.com.ua" class="google link">google</a> 
+</div>
+   <ul class="list">
+       <li>Пункт 1</li>
+       <li>Пункт 2</li>
+       <li>Пункт 3</li>
+       <li>Пункт 4</li>
+       <li>Пункт 5</li>
+       <li>Пункт 6</li>
+       <li>Пункт 7</li>
+       <li>Пункт 8</li>
+   </ul>
+</body>
+</html>

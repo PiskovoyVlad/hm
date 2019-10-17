@@ -1,0 +1,20 @@
+.menu{
+    width: 150px;
+}
+.punkt{
+    margin: 2px;
+    padding: 10px;
+    background-color: black;
+   
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu :hover{
+    margin: 2px;
+    padding: 10px;
+    background-color: gray;
+    color: black;
+}
+   

@@ -1,0 +1,46 @@
+.foch{
+    
+    margin: 0px;
+    
+}
+.foch2{
+    width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+.foch3{
+    width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ku{
+    width: 350px;
+  margin: 0 auto;
+  text-align: center;
+    
+}
+
+.fu{
+    color: gray;
+    margin: 10px;
+    float: left;    
+}
+.fu1{
+    color: red;
+    margin: 10px;
+   float: left;
+}
+.dni{
+    color: midnightblue;
+    margin: 10px;
+    float: left;
+}   
+.fu2{
+    margin: 10px;
+    float: left;    
+}
+.fu3{
+    background-color: red;
+    margin: 10px;
+    float: left;    
+}
